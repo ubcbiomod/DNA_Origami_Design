@@ -1,15 +1,15 @@
 import numpy as np
 
-B = np.array([7249, 7560, 8064])        # number of nucleotides for the scaffold
-nE = 3                                  # number of edges
-nH = 6                                  # number of helices per edge
+arrScaffold = np.array([7249, 7560, 8064])    # number of nucleotides for the scaffold
+numEdges = 3                                  # number of edges
+numHelix = 6                                  # number of helices per edge
 
 
-conv = 0.332                            # conversion factor in nm/nt
-cL = 1/2*np.sqrt(2)                     # conversion factor for long side
-cS = np.sin(np.pi/nE)                   # conversion factor for short side
-D = B/(nE*nH*(cS+2*cL)/conv)            # diameter in nm
-print('D = ' + str(D))
+conversion_factor = 0.332                     # conversion factor in nm/nt
+cfLong = 1/2*np.sqrt(2)                       # conversion factor for long side (edges on axial (y-axis))
+cfShort = np.sin(np.pi/nE)                    # conversion factor for short side (edges on equatorial (x-axis)) 
+Diameter_nm = arrScaffold/(numEdges*numHelix*(cfShort+2*cfLong)/conversion_factor)            # diameter in nm
+print('Diameter = {}'.format(Diameter_nm))
 
 
 # Credits to Qiyang Geng and Ethan Rajkumar
