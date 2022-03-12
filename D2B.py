@@ -2,7 +2,7 @@ import numpy as np
 
 # Parameters
 diameter = 100                                                    # diameter in nm
-numEdges = 3                                                      # number of edges
+numEdges = np.array([3,4,5,6])                                                     # number of edges
 numHelix = 6                                                      # number of helices per edge
 
 
@@ -13,3 +13,4 @@ numBases = numHelix*numEdges*(longSide*2+shortSide)                     # number
 print('Number of Bases = {}'.format(numBases))
 
 #Credits to Qiyang Geng and Ethan Rajkumar
+
