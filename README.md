@@ -3,4 +3,4 @@
 -Diameter Calculator
 -Sandwich Checker
 -Kinetic Trap
-https://docs.google.com/viewer?url=https://docs.google.com/document/d/1o1BM2RaThx21y6Umlj3P5WFR0yRRxUGReCnFHSoyPEI/edit?usp=sharing
+[BIOMOD Documentation.txt](https://github.com/erdabravest2001/UBCBIOMOD/files/8283683/BIOMOD.Documentation.txt)
