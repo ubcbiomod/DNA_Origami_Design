@@ -1,6 +1,25 @@
 # UBC BIOMOD
 ### Cadnano python files:
--Diameter Calculator
--Sandwich Checker
--Kinetic Trap
-[BIOMOD Documentation.txt](https://github.com/erdabravest2001/UBCBIOMOD/files/8283683/BIOMOD.Documentation.txt)
+Diameter Calculator
+#### Cadnano Sandwich and KT checker
+![BIOMOD Documentation-21](https://user-images.githubusercontent.com/61441923/158786316-1233f4af-223c-4fb7-803d-59951b17efa1.jpg)
+![BIOMOD Documentation-01](https://user-images.githubusercontent.com/61441923/158786317-e40c5490-812b-492b-9486-bd8a9d002733.jpg)
+![BIOMOD Documentation-02](https://user-images.githubusercontent.com/61441923/158786319-154cbc03-74bd-4f2a-b78b-eb21ecc04040.jpg)
+![BIOMOD Documentation-03](https://user-images.githubusercontent.com/61441923/158786322-3e9ff066-e5b4-4d95-9ed9-34f21e2ba145.jpg)
+![BIOMOD Documentation-04](https://user-images.githubusercontent.com/61441923/158786325-a7a87777-d124-40f6-b97c-c5205d30b006.jpg)
+![BIOMOD Documentation-05](https://user-images.githubusercontent.com/61441923/158786327-64675c02-6065-4d11-a92e-32cd94486464.jpg)
+![BIOMOD Documentation-06](https://user-images.githubusercontent.com/61441923/158786331-d47403d5-1b20-4041-bfa2-0685f00500ce.jpg)
+![BIOMOD Documentation-07](https://user-images.githubusercontent.com/61441923/158786335-b3d10ba4-dae3-410b-9c49-e425e054fa46.jpg)
+![BIOMOD Documentation-08](https://user-images.githubusercontent.com/61441923/158786338-3f0a0cb8-bad5-4e96-af77-98ca7a6f16cb.jpg)
+![BIOMOD Documentation-09](https://user-images.githubusercontent.com/61441923/158786342-484ea944-ff6b-4a20-ade4-abc95fea579f.jpg)
+![BIOMOD Documentation-10](https://user-images.githubusercontent.com/61441923/158786343-d2e15baf-55b0-4f14-89bc-4791aa28433e.jpg)
+![BIOMOD Documentation-11](https://user-images.githubusercontent.com/61441923/158786347-60463126-4c85-4c0c-8806-05acf411728c.jpg)
+![BIOMOD Documentation-12](https://user-images.githubusercontent.com/61441923/158786349-f8c7f950-4f32-4a94-92d8-a6cf08900d00.jpg)
+![BIOMOD Documentation-13](https://user-images.githubusercontent.com/61441923/158786351-52d70471-32b3-4909-a22a-8cbe13d1c9de.jpg)
+![BIOMOD Documentation-14](https://user-images.githubusercontent.com/61441923/158786357-c795064b-9ae1-479d-af55-23c863a476c5.jpg)
+![BIOMOD Documentation-15](https://user-images.githubusercontent.com/61441923/158786359-74849b61-992d-4ea5-b7aa-cbdbb347db69.jpg)
+![BIOMOD Documentation-16](https://user-images.githubusercontent.com/61441923/158786361-dc7429bb-5334-4967-9652-2f13eb5e2e7e.jpg)
+![BIOMOD Documentation-17](https://user-images.githubusercontent.com/61441923/158786362-65f7a7ce-3f08-496e-b0a6-6fd33db15790.jpg)
+![BIOMOD Documentation-18](https://user-images.githubusercontent.com/61441923/158786364-49d275d6-c51f-4ae2-94ea-04644f2ff392.jpg)
+![BIOMOD Documentation-19](https://user-images.githubusercontent.com/61441923/158786367-c35a9432-8412-467a-956d-3f94a841f0ab.jpg)
+![BIOMOD Documentation-20](https://user-images.githubusercontent.com/61441923/158786369-6f65483a-5df0-4282-866b-b328cb57a3bc.jpg)
