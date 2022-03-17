@@ -2,7 +2,6 @@
 ### Cadnano python files:
 Diameter Calculator
 #### Cadnano Sandwich and KT checker
-![BIOMOD Documentation-21](https://user-images.githubusercontent.com/61441923/158786316-1233f4af-223c-4fb7-803d-59951b17efa1.jpg)
 ![BIOMOD Documentation-01](https://user-images.githubusercontent.com/61441923/158786317-e40c5490-812b-492b-9486-bd8a9d002733.jpg)
 ![BIOMOD Documentation-02](https://user-images.githubusercontent.com/61441923/158786319-154cbc03-74bd-4f2a-b78b-eb21ecc04040.jpg)
 ![BIOMOD Documentation-03](https://user-images.githubusercontent.com/61441923/158786322-3e9ff066-e5b4-4d95-9ed9-34f21e2ba145.jpg)
@@ -23,3 +22,4 @@ Diameter Calculator
 ![BIOMOD Documentation-18](https://user-images.githubusercontent.com/61441923/158786364-49d275d6-c51f-4ae2-94ea-04644f2ff392.jpg)
 ![BIOMOD Documentation-19](https://user-images.githubusercontent.com/61441923/158786367-c35a9432-8412-467a-956d-3f94a841f0ab.jpg)
 ![BIOMOD Documentation-20](https://user-images.githubusercontent.com/61441923/158786369-6f65483a-5df0-4282-866b-b328cb57a3bc.jpg)
+![BIOMOD Documentation-21](https://user-images.githubusercontent.com/61441923/158786316-1233f4af-223c-4fb7-803d-59951b17efa1.jpg)
