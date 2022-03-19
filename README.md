@@ -1,6 +1,6 @@
 # UBC BIOMOD
 ### Cadnano python files:
-Diameter Calculator
+#### Diameter Calculator: 
 #### Cadnano Sandwich and KT checker
 ![BIOMOD Documentation-01](https://user-images.githubusercontent.com/61441923/158786317-e40c5490-812b-492b-9486-bd8a9d002733.jpg)
 ![BIOMOD Documentation-02](https://user-images.githubusercontent.com/61441923/158786319-154cbc03-74bd-4f2a-b78b-eb21ecc04040.jpg)
