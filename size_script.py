@@ -29,8 +29,8 @@ if D2B:
     print(pd.DataFrame(nBases, columns=["nBases"], index=nEdges)
           .rename_axis("nEdges", axis="columns"))
 else:
-    lScaffold = np.array([[7249, 7560, 8064]]).T                                                        # length of the scaffold in nucleotides
+    lScaffold = np.array([[7249, 7308, 7560, 8064]]).T                                                  # length of the scaffold in nucleotides
     diameter = lScaffold / (nEdges * nHelix * (cfShort + 2 * cfLong) / conversion_factor)               # diameter in nm
     # print(f'Diameter = {diameter.T}.')
-    print(pd.DataFrame(diameter.T, columns=[7249, 7560, 8064], index=nEdges)
+    print(pd.DataFrame(diameter.T, columns=lScaffold.T[0], index=nEdges)
           .rename_axis("nEdges\\lScaffold", axis="columns"))
