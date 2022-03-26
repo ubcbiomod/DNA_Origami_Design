@@ -11,10 +11,12 @@ import pandas as pd
 import sys
 
 D2B = True if len(sys.argv) > 1 and sys.argv[1] in ['D', 'd', 'D2B', 'd2b'] else False                  # mode
-nEdges = np.linspace(3, 12, num=12-3+1).astype(int)                                                     # number of edges
+nStart = 3                                                                                              # lower bound for n
+nEnd = 6                                                                                                # upper bound for n
+nEdges = np.linspace(nStart, nEnd, num=nEnd-nStart+1).astype(int)                                       # number of edges
 nHelix = 6                                                                                              # number of helices per edge
 conversion_factor = 0.664                                                                               # conversion factor in nm per nucleotide
-cfLong = np.pi / 4                                                                                      # conversion factor for long side (edges on axial (y-axis))
+cfLong = np.pi / 4 * np.ones(nEdges.shape)                                                              # conversion factor for long side (edges on axial (y-axis))
 cfShort = np.pi / nEdges                                                                                # conversion factor for short side (edges on equatorial (x-axis))
 
 print("Mode: " + ("diameter to number of bases." if D2B else "number of bases to diameter."))
@@ -22,14 +24,14 @@ print("Mode: " + ("diameter to number of bases." if D2B else "number of bases to
 if D2B:
     diameter = 100 if len(sys.argv) < 3 else float(sys.argv[2])
     print(f"Diameter: {diameter} nm.")
-    longSide = np.ceil(diameter * cfLong / conversion_factor)                                           # length of longer edges in nt
-    shortSide = np.ceil(diameter * cfShort / conversion_factor)                                         # length of shorter edges in nt
+    longSide = diameter * cfLong / conversion_factor                                                    # length of longer edges in nt
+    shortSide = diameter * cfShort / conversion_factor                                                  # length of shorter edges in nt
     nBases = (nHelix * nEdges * (longSide * 2 + shortSide)).astype(int)                                 # number of nucleotides for the scaffold
     # print(f'Number of Bases = {nBases}.')
-    print(pd.DataFrame(nBases, columns=["nBases"], index=nEdges)
+    print(pd.DataFrame(np.c_[nBases, shortSide, longSide], columns=["nBases", "nShort", "nLong"], index=nEdges)
           .rename_axis("nEdges", axis="columns"))
 else:
-    lScaffold = np.array([[7249, 7308, 7560, 8064]]).T                                                  # length of the scaffold in nucleotides
+    lScaffold = np.array([[7249, 7560, 8064]]).T                                                        # length of the scaffold in nucleotides
     diameter = lScaffold / (nEdges * nHelix * (cfShort + 2 * cfLong) / conversion_factor)               # diameter in nm
     # print(f'Diameter = {diameter.T}.')
     print(pd.DataFrame(diameter.T, columns=lScaffold.T[0], index=nEdges)
