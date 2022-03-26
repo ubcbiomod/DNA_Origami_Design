@@ -3,7 +3,8 @@
     Date created: 2022/03/12
     Date last modified: 2022/03/12
 
-    Takes two argument in the case of D2B, the first to indicate D2B, the second to provide the diameter in nm.
+    Takes two argument in the case of D2B, the first to indicate D2B, the second to provide the diameter in nm, e.g.
+    size_script.py d 100
 """
 
 import numpy as np
