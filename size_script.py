@@ -24,8 +24,8 @@ print("Mode: " + ("diameter to number of bases." if D2B else "number of bases to
 if D2B:
     diameter = 100 if len(sys.argv) < 3 else float(sys.argv[2])
     print(f"Diameter: {diameter} nm.")
-    longSide = diameter * cfLong / conversion_factor                                                    # length of longer edges in nt
-    shortSide = diameter * cfShort / conversion_factor                                                  # length of shorter edges in nt
+    longSide = np.round(diameter * cfLong / conversion_factor)                                                    # length of longer edges in nt
+    shortSide = np.round(diameter * cfShort / conversion_factor)                                                  # length of shorter edges in nt
     nBases = (nHelix * nEdges * (longSide * 2 + shortSide)).astype(int)                                 # number of nucleotides for the scaffold
     # print(f'Number of Bases = {nBases}.')
     print(pd.DataFrame(np.c_[nBases, shortSide, longSide], columns=["nBases", "nShort", "nLong"], index=nEdges)
