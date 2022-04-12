@@ -1,4 +1,4 @@
-# UBC BIOMOD's CADNANO Repo
+# UBC BIOMOD's Cadnano2.0 Repo
 <p align="center">
 <img src="https://user-images.githubusercontent.com/61441923/162942506-541854b0-2b55-437b-8d8c-7ad454fa6090.png">
 </p>
