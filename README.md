@@ -3,17 +3,17 @@
 # About This Repository
 
 ## Team Member Contribution
-Ethan Rajkumar 
-Qiyang Geng
-Fumiya Inaba
-Melanie Law
-Stephanie Nyugen
-Rajeshwar Lally
-Eashan Halbe
+Ethan Rajkumar \
+Qiyang Geng \
+Fumiya Inaba \
+Melanie Law \
+Stephanie Nyugen \
+Rajeshwar Lally \
+Eashan Halbe \
 
 ## Special Thanks to
-Rickey Lee
-Soresu Juyo
+Rickey Lee  \
+Soresu Juyo \
 
 ## Purpose
 To centralize our python code in one github repo. We also hope to share the Sandwich Checker and the Kinetic Trap Checker with Shawn Douglas, so we can possibly integrate the existing code with the current CADNANO GUI. 
