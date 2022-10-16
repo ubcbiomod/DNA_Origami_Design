@@ -11,7 +11,7 @@ Fumiya Inaba \
 Charlie Sushams \
 Melanie Law \
 Stephanie Nyugen \
-Rajeshwar Lally \
+Rajeshwar Lally 
 
 
 ## Special Thanks to
