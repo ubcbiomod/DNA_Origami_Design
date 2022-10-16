@@ -8,10 +8,11 @@
 Ethan Rajkumar \
 Qiyang Geng \
 Fumiya Inaba \
+Charlie Sushams \
 Melanie Law \
 Stephanie Nyugen \
 Rajeshwar Lally \
-Eashan Halbe 
+
 
 ## Special Thanks to
 Rickey Lee  \
