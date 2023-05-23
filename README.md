@@ -25,7 +25,7 @@ The 2022 BIOMOD Directory was done by Ethan Elliot Rajkumar as part of his contr
 
 The 2023 BIOMOD Directory was developed by Ethan Elliot Rajkumar, Qiyang Geng, and Fumiya Inaba as part of the 2023-2024 enzymosome project. 
 
-The CadNAno-VALidation (NANOVAL) tool was developed by Fumiya Inaba, Ethan Elliot Rajkumar, and Qiyang Geng for ease of use. 
+The CadNANO-VALidation (NANOVAL) tool was developed by Fumiya Inaba, Ethan Elliot Rajkumar, and Qiyang Geng for ease of use. 
 
 To centralize our python code in one github repo. We also hope to share the NanoValidation tool with Shawn Douglas, so we can possibly integrate the existing code with the current CADNANO GUI. 
 
