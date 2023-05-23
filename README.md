@@ -6,7 +6,7 @@
 
 ## Team Member Contribution
 # Primary Author
-Ethan Rajkumar \
+Ethan Rajkumar 
 
 # Developers
 Fumiya Inaba \
