@@ -1,0 +1,12 @@
+caDNAno Design Analysis - Strand Connectivity Analysis:
+Filename: Test_KT_n_Sandwich.json	Analysis Date: November 20, 2022	Analysis Time: 18:10:57
+
+Detected sandwich strands: 
+	4[36]
+Detected kinetic traps: 
+	0[21]
+	1[13]
+	1[20]
+	3[20]
+	4[21]
+Detected insufficient binding domain lengths: 
