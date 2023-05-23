@@ -10,7 +10,7 @@ Ethan Rajkumar
 
 # Developers
 Fumiya Inaba \
-Qiyang Geng \
+Qiyang Geng 
 
 ## Special Thanks to
 Rickey Lee  \
