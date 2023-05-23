@@ -5,10 +5,10 @@
 
 
 ## Team Member Contribution
-# Primary Author
+### Primary Author
 Ethan Rajkumar 
 
-# Developers
+### Developers
 Fumiya Inaba \
 Qiyang Geng 
 
