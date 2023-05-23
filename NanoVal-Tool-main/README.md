@@ -3,8 +3,8 @@
 
 
 ## Developers: 
-Fumi Inaba
-Ethan Elliot Rajkumar
+Fumi Inaba \
+Ethan Elliot Rajkumar \
 Qiyang Geng
 
 
